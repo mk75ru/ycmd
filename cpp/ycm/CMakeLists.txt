@@ -283,6 +283,8 @@ if ( EXTERNAL_LIBCLANG_PATH OR USE_SYSTEM_LIBCLANG )
                   ${LLVM_CONFIG_PATH}
                   /usr/lib
                   /usr/lib64
+		  /usr/lib/llvm/6/lib64
+		  /usr/lib/llvm/6/lib32
                   /usr/lib/llvm
                   ${SYS_LLVM_PATHS}
                   ${FREEBSD_LLVM_PATHS}
